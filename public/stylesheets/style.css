@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+  padding: 50px;
+  color: white;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+div#tab1 {
+  width: 100%; display: table;
+
+}
+div#row1 {
+  display: table-row
+}
+div#cell1 {
+  width: 15%; 
+  display: table-cell;  
+  color: red;
+}
+
+div#cell2 {
+  display: table-cell; 
+  color: white; 
+}
+
+
+
+a {
+  color:red;
+  text-decoration: none;
+}
+
+h1 {
+  color: yellow;
+}
+
+div#user {
+  margin-top: 0px;
+  color: lightgreen;
+  font-size: 10px;
+}
+
+button#addMessage{
+  margin-top: 20px;
+}
+
+input#formEntry {
+  margin-top: 20px;
+}
+
+p{
+  margin-top: 2px;
+
+}
+p#form{
+  margin-bottom: 2px;
+  color: blue;
+
+}
+h3#message {
+  margin-bottom: 0px;;
+}
+
+button#button {
+  margin-top: 30px;
+}
+

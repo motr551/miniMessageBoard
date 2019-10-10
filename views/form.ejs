@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Add New Message</h1>
+    <form method="POST" action="/new">
+      <div id="dataEntry">
+        <p id="form">User name:</p>      
+        <input type="text" name="messageUser" placeholder="Enter name">
+      </div>
+
+      <div id="dataEntry">
+        <p id="form">Text message:</p>       
+        <input type="text" name="messageTxt" placeholder="Type message">
+      </div>
+      
+      <input id="formEntry" type="submit" value="Enter Message">    
+    </form>  
+  </body>  
+</html>
