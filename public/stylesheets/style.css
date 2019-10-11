@@ -13,7 +13,7 @@ div#row1 {
   display: table-row
 }
 div#cell1 {
-  width: 15%; 
+  width: 4%; 
   display: table-cell;  
   color: red;
 }
